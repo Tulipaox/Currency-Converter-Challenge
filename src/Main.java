@@ -12,7 +12,7 @@ public class Main {
 
 
         moeda.menuOne();
-        while (opcao != 8) {
+        while (opcao != 10) {
             moeda.menu();
             opcao = leitura.nextInt();
             switch (opcao) {
@@ -53,16 +53,28 @@ public class Main {
                     moeda.menuTwo();
                     break;
                 case 7:
-                    System.out.println("Histórico de Conversão de Moeda\n");
                     moeda.ListOfMoney();
                     break;
                 case 8:
+                    System.out.println("Digite o Código do País Exp: [USD] para converter ");
+                    String paisOne = leitura.next();
+                    System.out.println("Digite o Código do País para qual sera convertido Exp: [BRL]");
+                    String paisTwo = leitura.next();
+                    System.out.println("Digite o valor para conversão");
+                    ammount = leitura.nextDouble();
+                    moeda.getConversor(paisOne, paisTwo, ammount);
+                    moeda.menuTwo();
+                    break;
+                case 9:
+                    moeda.ListdeCodigo();
+                    break;
+                case 10:
                     System.out.println("************************************");
                     System.out.println("Encerrando.......");
                     System.out.println("************************************");
                     break;
                 default:
-                    System.out.println("Escolha uma opção valida");
+                    System.out.println("Escolha uma opção valida\n");
                     break;
             }
 
