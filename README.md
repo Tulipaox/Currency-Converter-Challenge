@@ -6,14 +6,14 @@ Neste projeto, busca-se uma forma de converter a moeda de um país para a de out
 #### 🪛 Menu
 Com um menu fácil de entender e usar, o usuário pode escolher entre opções pré-definidas ou selecionar suas próprias moedas. Além disso, há a possibilidade de converter e monitorar suas conversões de forma prática e eficiente.
 
-<tr> <img src="![menu.png](src%2Fimg%2Fmenu.png)">
+<tr> <img src="./src/img/menu.png">
 ⚙️ Funcionalidades
 <p><strong>Opção pré-definida</strong></p>
-<img src="![option one.gif](src%2Fimg%2Foption%20one.gif)"> 
+<img src="src/img/option one.gif"> 
 <p><strong>Histórico de conversões</strong></p> 
-<img src="![optionsevengif.gif](src%2Fimg%2Foptionsevengif.gif)"> 
+<img src="./src/img/optionsevengif.gif"> 
 <p><strong>Escolher suas próprias moedas</strong></p> 
-<img src="![option conversion.gif](src%2Fimg%2Foption%20conversion.gif)">
+<img src="./src/img/option%20conversion.gif">
 
 ### Clone o repositório
 
